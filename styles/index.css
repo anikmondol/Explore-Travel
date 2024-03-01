@@ -3,3 +3,59 @@
     padding: 0;
     font-family: "Mulish", sans-serif;
 }
+
+
+.max-content{
+    width: 82%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.common-color{
+   color: #FF5400; 
+}
+
+.mb-icon{
+    display: none;
+}
+
+
+
+/* nav */
+
+
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.nav-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-text-container h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.nav-anchor{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.nav-anchor a{
+    text-decoration: none;
+}
+.nav-anchor a:hover{
+    color: #FF5400;
+}
+
+
