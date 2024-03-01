@@ -1,4 +1,9 @@
 @media screen and (max-width: 576px) {
+
+    .max-content {
+        width: 90%;
+    }
+
     .hide{
         display: none;
     }
@@ -10,11 +15,36 @@
     .nav-container{
         justify-content: space-between;
     }
+    .banner-content{
+        padding: 5% 0px 0px 0px;
+        width: 100%;
+    }
+    .banner-button-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .nav-container{
         flex-direction: column;
         gap: 20px;
+    }
+    .banner-content{
+        padding: 20% 0px 0px 0px;
+        width: 90%;
+    }
+    .banner-button-container{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15px;
+
     }
 }

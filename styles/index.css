@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Mulish", sans-serif;
 }
 
 
-.max-content{
+.max-content {
     width: 82%;
     max-width: 1170px;
     margin: 0 auto;
 }
 
-.common-color{
-   color: #FF5400; 
+.common-color {
+    color: #FF5400;
 }
 
-.mb-icon{
+.mb-icon {
     display: none;
 }
 
@@ -25,37 +25,90 @@
 
 
 
-.nav-container{
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 25px;
 }
 
-.nav-text-container{
+.nav-text-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.nav-text-container h6{
+.nav-text-container h6 {
     font-size: 20px;
     font-weight: 700;
 }
 
 
-.nav-anchor{
+.nav-anchor {
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
 
-.nav-anchor a{
+.nav-anchor a {
     text-decoration: none;
 }
-.nav-anchor a:hover{
+
+.nav-anchor a:hover {
     color: #FF5400;
 }
 
 
+/* banner */
+
+.banner {
+    background-image: url('../Images/Group-3\ .png'), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-blend-mode: overlay;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    color: wheat;
+}
+
+
+.banner-content {
+
+    width: 50%;
+    text-align: center;
+    padding: 12% 0px 0px 0px;
+    margin: 0 auto;
+
+}
+
+.banner-content .banner-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+
+.banner-button-container{
+    background-color: #ffffff67;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.banner-button-container button{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    gap: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.banner-button-container button:hover{
+    background-color: #FF5400;
+    color: white;
+}
