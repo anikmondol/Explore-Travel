@@ -1,27 +1,31 @@
 @media screen and (max-width: 576px) {
-    .section-title{
+    .section-title {
         font-size: 1.rem;
     }
+
     .max-content {
         width: 90%;
     }
 
-    .hide{
+    .hide {
         display: none;
     }
-    .mb-icon{
+
+    .mb-icon {
         display: block;
         font-size: 25px;
     }
 
-    .nav-container{
+    .nav-container {
         justify-content: space-between;
     }
-    .banner-content{
+
+    .banner-content {
         padding: 5% 0px 0px 0px;
         width: 100%;
     }
-    .banner-button-container{
+
+    .banner-button-container {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -29,127 +33,161 @@
         margin: 0 auto;
         margin-top: 10px;
     }
-    .popular-tours-container{
+
+    .popular-tours-container {
         flex-direction: column;
     }
-    .popular-tours-img img{
+
+    .popular-tours-img img {
         width: 100%;
     }
-    .mb-btn{
+
+    .mb-btn {
         width: 40%;
         margin-top: 15px;
     }
 
-    .common-container{
+    .common-container {
         width: 90%;
     }
 
-   
 
-    .gride-img-container{
+
+    .gride-img-container {
         display: flex;
         flex-direction: column;
     }
-    .gride-img-container img{
+
+    .gride-img-container img {
         width: 100%;
     }
 
-     
-    .img-1{
+
+    .img-1 {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
         position: relative;
     }
-    .img-1 img{
+
+    .img-1 img {
         width: 100%;
     }
-    .text-bg-1{
+
+    .text-bg-1 {
         left: 20%;
     }
-    .img-2{
+
+    .img-2 {
         grid-column: 1 / span 1;
         grid-row: 2 / span 1;
         position: relative;
     }
-    
-    .text-bg-2{
+
+    .text-bg-2 {
         left: 20%;
     }
-    
-    .img-3{
+
+    .img-3 {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         position: relative;
     }
-    
-    .text-bg-3{
+
+    .text-bg-3 {
         left: 22%;
     }
-    
-    .img-4{
+
+    .img-4 {
         grid-column: 1 / span 1;
         grid-row: 4 / span 1;
         position: relative;
     }
-    
-    .text-bg-4{
+
+    .text-bg-4 {
         left: 0%;
         text-align: center;
         width: 94%;
         top: 13%;
     }
-    
-    .img-5{
+
+    .img-5 {
         grid-column: 1 / span 1;
         grid-row: 5 / span 1;
         position: relative;
     }
-    
-    
-    .text-bg-5{
+
+
+    .text-bg-5 {
         top: 45%;
         left: 20%;
     }
-    
-    
-    
-    .img-6{
+
+
+
+    .img-6 {
         grid-column: 1 / span 1;
         grid-row: 6 / span 1;
         position: relative;
     }
-    
-    .text-bg-6{
+
+    .text-bg-6 {
         left: 10%;
     }
-    
-    
-    .img-7{
+
+
+    .img-7 {
         grid-column: 1 / span 1;
         grid-row: 7 / span 1;
         position: relative;
-    } 
-    
-    .text-bg-7{
+    }
+
+    .text-bg-7 {
         left: 12%;
     }
-    .two-colum-grid{
+
+    .two-colum-grid {
         flex-direction: column;
         gap: 10px;
         margin-bottom: 10px;
     }
-    .left-div, .right-div{
+
+    .left-div,
+    .right-div {
         width: 100%;
         padding: 0px;
         border: 1px solid rgba(251, 180, 99, 0.173);
     }
-    .extra-div{
+
+    .extra-div {
         width: 100%;
         padding: 0px;
     }
-    .mobile-padding{
+
+    .mobile-padding {
         padding: 15px;
     }
+
+    .background-img-card-1-content {
+        height: 80%;
+
+    }
+    .background-img-card-2-content {
+        height: 80%;
+
+    }
+
+    .location-time-content{
+        flex-direction: column;
+        text-align: center;
+        justify-content: end;
+        align-items: start;
+        gap: 8px;
+    }
+    .deal-btn{
+        width: 60%;
+        padding: 15px;
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -157,18 +195,22 @@
         width: 90%;
         margin: 0 auto;
     }
-    .common-container{
+
+    .common-container {
         width: 90%;
     }
-    .nav-container{
+
+    .nav-container {
         flex-direction: column;
         gap: 20px;
     }
-    .banner-content{
+
+    .banner-content {
         padding: 20% 0px 0px 0px;
         width: 90%;
     }
-    .banner-button-container{
+
+    .banner-button-container {
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -177,43 +219,60 @@
         margin-top: 15px;
 
     }
-    .popular-tours-container{
+
+    .popular-tours-container {
         flex-direction: column;
     }
-    .popular-tours-img img{
+
+    .popular-tours-img img {
         width: 100%;
     }
-    .gride-img-container{
+
+    .gride-img-container {
         display: flex;
         flex-direction: column;
     }
-    .gride-img-container img{
+
+    .gride-img-container img {
         width: 100%;
         object-fit: cover;
     }
-    .text-bg-3, .text-bg-5 {
+
+    .text-bg-3,
+    .text-bg-5 {
         left: 35%;
     }
-    .text-bg-4, .text-bg-6{
-            left: 30%;
-        }
 
-    .text-bg-6{
+    .text-bg-4,
+    .text-bg-6 {
+        left: 30%;
+    }
+
+    .text-bg-6 {
         left: 32%;
-    }    
-    .two-colum-grid{
+    }
+
+    .two-colum-grid {
         grid-template-columns: repeat(1, 1fr);
     }
-        .left-div, .right-div{
-            width: 100%;
-            padding: 0px;
-            border: 1px solid rgba(251, 180, 99, 0.173);
-        }
-        .extra-div{
-            width: 100%;
-            padding: 0px;
-        }
-        .mobile-padding{
-            padding: 15px;
-        }    
+
+    .left-div,
+    .right-div {
+        width: 100%;
+        padding: 0px;
+        border: 1px solid rgba(251, 180, 99, 0.173);
+    }
+
+    .extra-div {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .mobile-padding {
+        padding: 15px;
+    }
+    .deal-btn{
+        width: 60%;
+        padding: 15px;
+    }
 }
