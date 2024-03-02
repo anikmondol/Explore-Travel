@@ -1,6 +1,13 @@
 @media screen and (max-width: 576px) {
+    .banner-content .banner-title {
+        font-size: 22px;
+    
+    }
     .section-title {
-        font-size: 1.rem;
+        font-size: 22px;
+    }
+    .common-bg{
+        font-size: 20px;
     }
 
     .max-content {
@@ -207,28 +214,40 @@
     video {
         width: 100%;
     }
+    .hr_section{
+        width: 95%;
+    }
+    .title_section {
+        width: 90%;
+        padding: 9px;
+    }
 
-    .newsletter {
+    .newsletter_saction {
         flex-direction: column;
-        margin-top: 1rem;
     }
 
-    .newsletter-left-div {
-        width: 85%;
-        padding: 20px;
+    .input_section {
+        width: 250px;
+        height: 52px;
+        flex-shrink: 0;
     }
 
-    .newsletter-right-div img {
+    .input {
+        width: 250px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .image_section {
         width: 100%;
-
-        padding: 0;
-        border: none;
+        /* height: 300px;
+        flex-shrink: 0; */
     }
 
-    .discount-container {
-        top: -120px;
-        left: 150px;
-    }
+
+
+
+    /* newsiest */
 
     .cards-container {
         display: grid;
@@ -348,21 +367,12 @@
         flex-direction: column;
     }
 
-    .newsletter {
-        flex-direction: column;
 
-    }
+    /* newsiest */
 
-    
 
-    .newsletter-left-div {
-        width: 100%;
-        margin-bottom: 100px;
-        padding: 20px;
-        margin: 0 auto;
-        margin-bottom: 30px;
 
-    }
+
 
     .cards-container {
         display: grid;
