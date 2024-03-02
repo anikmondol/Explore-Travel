@@ -410,3 +410,104 @@ video{
    height: 400px;
    margin-top: 70px;
 }
+
+
+/* newsletter */
+
+.newsletter{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+.newsletter-left-div{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 3rem;
+    border: 1px solid #FF5400;
+    border-radius: 10px
+}
+
+.new-h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.form-new{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.email, .password{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.sub-bth{
+    width: 100%;
+}
+
+
+/* extra section */
+
+
+/* blog related style */
+
+.blog-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin: 80px auto 15px auto;
+}
+
+.blog-description{
+    font-size: 22px;
+    text-align: center;
+}
+
+/* card related style */
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+
+
+.card{
+    width: 350px;
+    height: 450px;
+    box-shadow: 4px 4px 8px gray;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+   
+}
+
+
+.card img{
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+    padding: 1.5rem;
+}
+
+.card-title{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
