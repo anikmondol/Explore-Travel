@@ -27,9 +27,22 @@
         margin: 0 auto;
         margin-top: 10px;
     }
+    .popular-tours-container{
+        flex-direction: column;
+    }
+    .popular-tours-img img{
+        width: 100%;
+    }
+    .mb-btn{
+        width: 40%;
+        margin-top: 15px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    .max-content {
+        width: 90%;
+    }
     .nav-container{
         flex-direction: column;
         gap: 20px;
@@ -47,4 +60,11 @@
         margin-top: 15px;
 
     }
+    .popular-tours-container{
+        flex-direction: column;
+    }
+    .popular-tours-img img{
+        width: 100%;
+    }
+    
 }
