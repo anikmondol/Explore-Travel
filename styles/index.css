@@ -32,14 +32,18 @@
 .section-title {
     color: #131318;
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
 p, li {
-    color: #5A5A5D;
+    color: rgba(10, 10, 10, 0.984);
     line-height: 26px;
     /* 162.5% */
+}
+
+.banner-description{
+    color: white;
 }
 
 /* nav */
@@ -80,6 +84,8 @@ p, li {
 .nav-anchor a:hover {
     color: #FF5400;
 }
+
+
 
 
 /* banner */
@@ -150,3 +156,110 @@ p, li {
     flex-direction: column;
     justify-content: space-between;
 }
+
+
+/* common-container */
+
+.common-container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* gride-img-container */
+
+.gride-img-container{
+        
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 100%;
+      gap: 0.5rem;
+}
+
+.common-bg{
+    position: absolute;
+    top: 35%;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+    color: white;
+}
+
+
+
+.img-1{
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
+    position: relative;
+}
+.text-bg-1{
+    left: 35%;
+}
+.img-2{
+    grid-column: 7 / span 6;
+    grid-row: 1 / span 1;
+    position: relative;
+}
+
+.text-bg-2{
+    left: 35%;
+}
+
+.img-3{
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 1;
+    position: relative;
+}
+
+.text-bg-3{
+    left: 25%;
+}
+
+.img-4{
+    grid-column: 5 / span 7;
+    grid-row: 2 / span 1;
+    position: relative;
+}
+
+.text-bg-4{
+    left: 15%;
+}
+
+.img-5{
+    grid-column: 10 / span 2;
+    grid-row: 2 / span 1;
+    position: relative;
+}
+
+
+.text-bg-5{
+    top: 35%;
+    left: 20%;
+}
+
+
+
+.img-6{
+    grid-column: 1 / span 5;
+    grid-row: 3 / span 1;
+    position: relative;
+}
+
+.text-bg-6{
+    left: 25%;
+}
+
+
+.img-7{
+    grid-column: 6 / span 6;
+    grid-row: 3 / span 1;
+    position: relative;
+}
+
+.text-bg-7{
+    left: 35%;
+}
+

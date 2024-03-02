@@ -1,5 +1,7 @@
 @media screen and (max-width: 576px) {
-
+    .section-title{
+        font-size: 1.rem;
+    }
     .max-content {
         width: 90%;
     }
@@ -37,10 +39,109 @@
         width: 40%;
         margin-top: 15px;
     }
+
+    .common-container{
+        width: 90%;
+    }
+
+   
+
+    .gride-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .gride-img-container img{
+        width: 100%;
+    }
+
+     
+    .img-1{
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        position: relative;
+    }
+    .img-1 img{
+        width: 100%;
+    }
+    .text-bg-1{
+        left: 20%;
+    }
+    .img-2{
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        position: relative;
+    }
+    
+    .text-bg-2{
+        left: 20%;
+    }
+    
+    .img-3{
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        position: relative;
+    }
+    
+    .text-bg-3{
+        left: 22%;
+    }
+    
+    .img-4{
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+        position: relative;
+    }
+    
+    .text-bg-4{
+        left: 0%;
+        text-align: center;
+        width: 94%;
+        top: 13%;
+    }
+    
+    .img-5{
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+        position: relative;
+    }
+    
+    
+    .text-bg-5{
+        top: 45%;
+        left: 20%;
+    }
+    
+    
+    
+    .img-6{
+        grid-column: 1 / span 1;
+        grid-row: 6 / span 1;
+        position: relative;
+    }
+    
+    .text-bg-6{
+        left: 10%;
+    }
+    
+    
+    .img-7{
+        grid-column: 1 / span 1;
+        grid-row: 7 / span 1;
+        position: relative;
+    } 
+    
+    .text-bg-7{
+        left: 12%;
+    }
+    
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .max-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .common-container{
         width: 90%;
     }
     .nav-container{
@@ -66,5 +167,22 @@
     .popular-tours-img img{
         width: 100%;
     }
-    
+    .gride-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .gride-img-container img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .text-bg-3, .text-bg-5 {
+        left: 35%;
+    }
+    .text-bg-4, .text-bg-6{
+            left: 30%;
+        }
+
+        .text-bg-6{
+            left: 32%;
+        }    
 }
