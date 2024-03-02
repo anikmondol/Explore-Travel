@@ -81,7 +81,7 @@
     }
 
     .text-bg-1 {
-        left: 20%;
+        left: 35%;
     }
 
     .img-2 {
@@ -91,7 +91,7 @@
     }
 
     .text-bg-2 {
-        left: 20%;
+        left: 35%;
     }
 
     .img-3 {
@@ -101,7 +101,7 @@
     }
 
     .text-bg-3 {
-        left: 22%;
+        left: 35%;
     }
 
     .img-4 {
@@ -111,10 +111,10 @@
     }
 
     .text-bg-4 {
-        left: 0%;
         text-align: center;
         width: 94%;
-        top: 13%;
+        left: 2%;
+
     }
 
     .img-5 {
@@ -126,7 +126,7 @@
 
     .text-bg-5 {
         top: 45%;
-        left: 20%;
+        left: 35%;
     }
 
 
@@ -138,7 +138,7 @@
     }
 
     .text-bg-6 {
-        left: 10%;
+        left: 30%;
     }
 
 
@@ -149,7 +149,7 @@
     }
 
     .text-bg-7 {
-        left: 12%;
+        left: 30%;
     }
 
     .two-colum-grid {
@@ -259,7 +259,7 @@
     }
 
     .footer {
-        padding: 0px;
+        padding: 20px 0px;
     }
 
 }
@@ -370,12 +370,26 @@
 
     /* newsiest */
 
+    .newsletter_saction{
+        flex-direction: column;
+        gap: 45px;
+        margin-top: 25px;
+    }
 
+    .title_section{
+        width: 90%;
+    }
 
+     .image_section{
+        width: 100%;
+    }
 
 
     .cards-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .footer {
+        padding: 20px 0px;
     }
 }
