@@ -310,7 +310,6 @@ li {
 
 /* Deals & Discounts */
 
-
 .background-img-cards-1{
     background-image: url('../Images/Group-39.png');
     background-repeat: no-repeat;
@@ -385,4 +384,29 @@ li {
     flex-direction: column;
     gap: 15px;
    
+}
+
+/* Simple Perfect  */
+
+.see-all-btn{
+    margin-left: 45%;
+ }
+
+.simple-perfect{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+video{
+    width: 600px;
+    height: 500px;
+}
+
+.simple-text{
+   display: flex;
+   gap: 5px;
+   height: 400px;
+   margin-top: 70px;
 }
