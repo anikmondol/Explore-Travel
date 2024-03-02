@@ -171,56 +171,76 @@
         height: 80%;
 
     }
+
     .background-img-card-2-content {
         height: 80%;
 
     }
 
-    .location-time-content{
+    .location-time-content {
         flex-direction: column;
         text-align: center;
         justify-content: end;
         align-items: start;
         gap: 8px;
     }
-    .deal-btn{
+
+    .deal-btn {
         width: 60%;
         padding: 15px;
     }
-    .simple-perfect{
+
+    .simple-perfect {
         flex-direction: column;
         gap: 5rem;
     }
-    .simple-text{
+
+    .simple-text {
         margin-top: 50px;
-     }
-    .see-all-btn{
+    }
+
+    .see-all-btn {
         width: 45%;
         margin: 0 25%;
     }
-    video{
+
+    video {
         width: 100%;
     }
-    .newsletter{
+
+    .newsletter {
         flex-direction: column;
         margin-top: 1rem;
     }
-    .newsletter-left-div{
+
+    .newsletter-left-div {
         width: 85%;
         padding: 20px;
     }
-    .newsletter-right-div img{
+
+    .newsletter-right-div img {
         width: 100%;
 
         padding: 0;
         border: none;
     }
-    .cards-container{
+
+    .discount-container {
+        top: -120px;
+        left: 150px;
+    }
+
+    .cards-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .card{
+
+    .card {
         width: 100%;
+    }
+
+    .footer {
+        padding: 0px;
     }
 
 }
@@ -306,32 +326,45 @@
     .mobile-padding {
         padding: 15px;
     }
-    .deal-btn{
+
+    .deal-btn {
         width: 60%;
         padding: 15px;
     }
-    .simple-perfect{
+
+    .simple-perfect {
         flex-direction: column;
         margin: 0 auto;
-       
+
     }
-    video{
+
+    video {
         width: 100%;
     }
-    .time, .group, .location{
+
+    .time,
+    .group,
+    .location {
         flex-direction: column;
     }
-    .newsletter{
+
+    .newsletter {
         flex-direction: column;
+
     }
-    .newsletter-left-div{
-        width: 85%;
+
+    
+
+    .newsletter-left-div {
+        width: 100%;
+        margin-bottom: 100px;
         padding: 20px;
         margin: 0 auto;
         margin-bottom: 30px;
 
     }
-    .cards-container{
+
+    .cards-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
